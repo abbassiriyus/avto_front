@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.a_fff {
+    color: #fff;
+    transition: .2s;
+}
+.a_fff:hover {
+    color: #ff4605;
+}

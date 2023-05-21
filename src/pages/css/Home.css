@@ -1,0 +1,40 @@
+.HomeHeader {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+}
+.headerBody1 {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.headerBody > h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.headerBody > h1 > span {
+    color: #ff6505
+}
+.header_box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+.headerSelect {
+    width: 200px;
+    height: 50px;
+    outline: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.headerSelect:focus {
+    border: 1px solid #ff6505;
+}
